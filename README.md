@@ -8,10 +8,12 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the required libraries such as pandas, matplotlib, and KMeans from sklearn.
+2. Load the dataset Mall_Customers.csv using pandas and select the features Annual Income and Spending Score.
+3. Apply the K-Means clustering algorithm with a chosen number of clusters (k = 5).
+4. Fit the model to the data and predict the cluster for each customer.
+5. Add the predicted cluster values to the dataset.
+6. Visualize the clusters using a scatter plot and mark the centroids of each cluster.
 
 ## Program:
 ```
